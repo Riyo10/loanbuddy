@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Loan Calculator
+
+A modern and responsive Loan Calculator built with **Next.js**, **React**, **Tailwind CSS**, and **Chart.js**.  
+This app allows users to input loan amount, tenure, and interest rate, and then view detailed EMI calculations and visual charts.
+
+---
+
+## Features
+
+- Input loan amount (₹10,000 to ₹4 Crore) with both number input and range slider  
+- Select loan tenure (1 to 15 years) with number input and range slider  
+- Set interest rate (10% to 21%) with number input and range slider  
+- Calculate monthly EMI, total interest payable, and total payment  
+- Visual breakdown using Doughnut chart and monthly EMI line chart  
+- Responsive design with clean UI powered by Tailwind CSS  
+- Client-side routing with Next.js and URL query parameters  
+- Smooth UX with input synchronization between sliders and number fields  
+
+---
+
+## Demo
+
+Check out the live demo here: [Your Demo URL]
+
+---
+
+## Technologies Used
+
+- [Next.js](https://nextjs.org/) (React Framework)  
+- [React](https://reactjs.org/)  
+- [Tailwind CSS](https://tailwindcss.com/) for styling  
+- [Chart.js](https://www.chartjs.org/) for charts  
+- JavaScript (ES6+)  
+
+---
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
+- Node.js (v14 or above recommended)  
+- npm or yarn  
+
+### Installation
+
+1. Clone the repo  
+   ```bash
+   git remote add origin https://github.com/Riyo10/loanbuddy.git
+   cd loanbuddy
+
+Install dependencies
+npm install
+# or
+yarn install
+
+Run the development server
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 to view it in the browser.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Usage
+Enter your loan amount, tenure (years), and interest rate using either the number input or the range slider.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Click Get My Loan Info to view detailed breakdowns and charts.
 
-## Learn More
+Explore the charts showing principal vs interest and monthly EMI distribution.
 
-To learn more about Next.js, take a look at the following resources:
+Author
+Created with ❤️ by Supriyo
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+License
+This project is open source and available under the MIT License.
