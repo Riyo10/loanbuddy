@@ -12,8 +12,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Your Loan Buddy",
-  description: "Created by Supriyo",
+  title: "Loan Buddy",
+  description: "By Supriyo",
 };
 
 export default function RootLayout({ children }) {
